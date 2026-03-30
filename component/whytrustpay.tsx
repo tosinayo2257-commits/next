@@ -2,7 +2,7 @@ import Image from "next/image";
 import Why from "../public/why.png";
 import Hand from "../public/Hand.png";
 
-export default function WhyTrustPay(): JSX.Element {
+export default function WhyTrustPay() {
   return (
     <section className="max-w-[1140px] mx-auto px-4 py-5">
       <div className="text-center mb-12 md:mb-10">
