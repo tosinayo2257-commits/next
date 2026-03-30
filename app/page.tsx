@@ -7,6 +7,12 @@ import playstore from "../public/Playstore.png";
 import globe from "../public/globe-02.png";
 import vector from "../public/Vector-2.png";
 import { RiArrowRightSLine } from "react-icons/ri";
+import WhyTrustPay from "@/component/whytrustpay";
+import Features from "@/component/feature";
+import Deals from "@/component/deals";
+import HowItWorks from "@/component/howitwork";
+import Experiences from "@/component/experience";
+import Frequently from "@/component/frequently";
 
 const TrustPayLanding: React.FC = () => {
   return (
@@ -93,6 +99,12 @@ const TrustPayLanding: React.FC = () => {
           </div>
         </section>
       </div>
+      <WhyTrustPay />
+      <Features />
+      <Deals />
+      <HowItWorks />
+      <Experiences />
+      <Frequently />
     </div>
   );
 };
