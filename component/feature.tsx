@@ -2,7 +2,7 @@ import Image from "next/image";
 import Dark from "../public/Dark.png";
 import Dark2 from "../public/Dark2.png";
 
-export default function Features(): jSX.Element {
+export default function Features() {
   return (
     <section className="py-16 px-8 md:px-10 relative">
       {/* Header */}

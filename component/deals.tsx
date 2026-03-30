@@ -3,7 +3,7 @@ import Raw from "../public/Raw.png";
 
 import { IoCheckmarkOutline } from "react-icons/io5";
 
-export default function Deals(): JSX.Element {
+export default function Deals() {
   return (
     <section className="px-5 sm:px-8 lg:px-16 py-10">
       <div className="max-w-7xl mx-auto">

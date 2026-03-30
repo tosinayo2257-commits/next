@@ -31,7 +31,7 @@ const testimonials: Testimonial[] = [
   },
 ];
 
-export default function Experiences(): JSX.Element {
+export default function Experiences() {
   return (
     <section className="max-w-[1140px] mx-auto px-4 py-16">
       {/* Header */}

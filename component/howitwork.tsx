@@ -86,7 +86,7 @@ const Step: React.FC<StepProps> = ({ step, reverse }) => {
   );
 };
 
-export default function HowItWorks(): JSX.Element {
+export default function HowItWorks() {
   return (
     <section className="bg-white py-10 px-6 md:px-16 md:py-20">
       {/* Header */}
