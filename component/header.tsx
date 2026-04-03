@@ -52,9 +52,11 @@ const Header: React.FC = () => {
               Log In
             </button>
 
-            <button className="mt-6 flex items-center gap-2 bg-[#362FF6] text-white px-6 py-3 rounded-xl hover:bg-[#DEDEF2] hover:text-[#362FF6] transition">
-              Sign Up
-            </button>
+            <Link href="/signup">
+              <button className="mt-6 flex items-center gap-2 bg-[#362FF6] text-white px-6 py-3 rounded-xl hover:bg-[#DEDEF2] hover:text-[#362FF6] transition">
+                Sign Up
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -95,17 +97,13 @@ const Header: React.FC = () => {
             </Link>
 
             <div className="flex flex-col gap-3 pt-4">
-              <button
-                type="button"
-                content="Log In"
-                className="bg-[#DEDEF2] text-[#362FF6] hover:bg-[#362FF6] hover:text-white py-2 rounded-xl w-full"
-              />
+              <button className="bg-[#DEDEF2] text-[#362FF6] hover:bg-[#362FF6] hover:text-[#FFFF] py-2 rounded-xl w-full">
+                Log In
+              </button>
 
-              <button
-                type="button"
-                content="Sign Up"
-                className="bg-[#DEDEF2] text-[#362FF6] hover:bg-[#362FF6] hover:text-white py-2 rounded-xl w-full"
-              />
+              <button className="bg-[#DEDEF2] text-[#362FF6] hover:bg-[#362FF6] hover:text-[#FFFF] py-2 rounded-xl w-full">
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
